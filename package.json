@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/tailwind/input.css -o ./assets/css/tailwind/output.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanJavaid1998/new_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhsanJavaid1998/new_portfolio/issues"
+  },
+  "homepage": "https://github.com/AhsanJavaid1998/new_portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
